@@ -43,9 +43,11 @@ La biblioteca de clases .NET es una colección de miles de clases que contienen 
 la biblioteca de clases .NET incluye la clase Console para los desarrolladores que trabajan en aplicaciones de consola. La
 clase Console incluye métodos para las operaciones de entrada y salida, como Write(), WriteLine(), Read() y ReadLine(), y
 muchas otras. Por ejemplo, es posible que ya esté familiarizado con el código siguiente:
+
+    Console.WriteLine("Hello, World !!");
 */
 
-Console.WriteLine("Hello, World !!");
+
 
 /*
 Puede considerar una clase como un contenedor de métodos, como las secciones de la biblioteca pública. Los desarrolladores
@@ -74,6 +76,3 @@ C# enmascara la conexión entre los tipos de datos y las clases de .NET para sim
 tipos de datos se implementan igual que cualquier otra clase de la biblioteca de clases .NET. Esta conexión proporciona variables cotidianas
 con métodos integrados que pueden ser muy útiles.
 */
-
-
-
