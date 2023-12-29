@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Branches-and-loops/1.0.0": {
+        "runtime": {
+          "Branches-and-loops.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Branches-and-loops/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
