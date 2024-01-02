@@ -1,5 +1,7 @@
 # C--Microsoft-FreeCodeCamp
-This repository contains all modules of free code camp - microsoft  - course. 
+Este repositorio contiene todos los módulos del curso de freecodecamp y microsoft learn:
+
+Para realizar los desafíos correspondientes lo primero es preparar bien el entorno de trabajo:
 
 1. Abra Visual Studio Code.
    Puede usar el menú Inicio de Windows (o un recurso equivalente para otro sistema operativo) para abrir Visual Studio Code.
