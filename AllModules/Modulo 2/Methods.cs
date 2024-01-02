@@ -259,4 +259,45 @@ Ya hemos examinado varios temas en esta unidad. Esta es una lista rápida de lo 
     * Hemos examinado cómo un método puede usar parámetros de entrada definidos como tipos de datos específicos.
     * Hemos examinado las versiones sobrecargadas de algunos métodos que incluyen distintos parámetros de entrada o tipos de parámetros.
     
-*/ 
+*/
+
+
+
+/*        Ejercicio: Completar una actividad de desafío para detectar e implementar una llamada de método
+
+Los desafíos de código le permiten reforzar lo que ha aprendido y le ayudan a tener más confianza antes de continuar.
+
+Desafío de los métodos de la clase Math
+
+En este desafío, usará IntelliSense o learn.microsoft.com para buscar y llamar a un método que devuelva el mayor de dos números.
+
+Estos son los requisitos del desafío:
+
+Asegúrese de que tiene un archivo Program.cs vacío abierto en Visual Studio Code.
+
+Escriba el siguiente código como punto de partida del desafío.
+
+
+*/
+
+
+int firstValue = 500;
+int secondValue = 600;
+int largerValue;
+
+largerValue = System.Math.Max(firstValue, secondValue);
+
+Console.WriteLine("Desafío 1, Metodos = " + largerValue);
+
+/*
+3. Busque un método de la clase System.Math que devuelva el mayor de dos números.
+
+   Puede usar "IntelliSense" en Visual Studio Code o learn.microsoft.com para buscar el método y determinar cómo llamarlo correctamente.
+4. Use el método que encontró para asignar un valor a la variable denominada largerValue.
+
+   Debe poder pasar los dos valores enteros, firstValue y secondValue, al método que encontró. 
+   El método debe devolver un valor de tipo int que represente el mayor de los dos argumentos que ha pasado.
+
+   Puede asignar el valor devuelto a largerValue en una nueva línea de código o en la línea de código existente que se usa para declarar largerValue.
+
+*/
