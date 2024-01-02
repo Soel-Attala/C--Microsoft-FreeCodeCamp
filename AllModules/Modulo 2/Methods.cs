@@ -300,4 +300,7 @@ Console.WriteLine("Desafío 1, Metodos = " + largerValue);
 
    Puede asignar el valor devuelto a largerValue en una nueva línea de código o en la línea de código existente que se usa para declarar largerValue.
 
+
+NOTA: La solución final de este desafío debe usar este código y debe usar la 
+      instrucción Console.WriteLine(largerValue); para generar la salida.
 */
