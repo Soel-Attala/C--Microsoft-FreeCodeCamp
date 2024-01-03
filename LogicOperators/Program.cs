@@ -153,7 +153,10 @@ bloque de código esté "anidado" en otro bloque de código en las aplicaciones.
 bloques de código más adelante en este módulo al crear una instrucción if dentro de otro bloque de código.
 */
 
+
+
 /*          Incorporación de otra instrucción if para implementar puntos extra por obtener dobles
+
 A continuación, puede a implementar la siguiente regla: "Si dos dados cualesquiera muestran el mismo valor,
 se obtendrán dos puntos extra por obtener dobles".
 Modifique el código del paso anterior para que coincida con la lista de códigos siguiente:
@@ -210,7 +213,7 @@ que se evalúa para una tirada perdedora. Esto debería facilitar la comprensió
 Dado que se trabaja con valores enteros, la nueva expresión (total >= 15) funcionará de forma similar a la que
 escribió anteriormente (total > 14).
 */
-
+/*
 Random dice = new Random();
 
 int roll1 = dice.Next(1, 7);
@@ -236,3 +239,68 @@ if (total < 15)
 {
     Console.WriteLine("Sorry, you lose.");
 }
+*/
+
+/*      Incorporación de otra instrucción if para implementar los puntos extra por obtener triples
+A continuación, puede implementar la siguiente regla: "Si los tres dados que tire muestran el mismo valor,
+obtendrá seis puntos extra por obtener un triple". Modifique el código de los pasos anteriores para que coincida
+con la siguiente lista de códigos:
+
+
+if ((roll1 == roll2) && (roll2 == roll3)) 
+{
+    Console.WriteLine("You rolled triples! +6 bonus to total!");
+    total += 6;
+}
+
+Ahora combinará dos expresiones booleanas para crear una expresión booleana compuesta en una sola línea de código. 
+Cuenta con un conjunto externo de paréntesis que combina dos conjuntos internos de paréntesis separados por dos
+caracteres de "Y" comercial.
+
+Los caracteres && de Y comercial son el operador Y lógico, que básicamente indica “solo si ambas expresiones son
+verdaderas, la expresión completa es verdadera”. En este caso, si roll1 es igual a roll2, y roll2 es igual 
+a roll3, entonces, por deducción roll1, debe ser igual a roll3 y el usuario ha sacado triples.
+
+*/
+
+Random dice = new Random();
+
+int roll1 = dice.Next(1, 7);
+int roll2 = dice.Next(1, 7);
+int roll3 = dice.Next(1, 7);
+
+int total = roll1 + roll2 + roll3;
+
+Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+
+if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+{
+    Console.WriteLine("You rolled doubles! +2 bonus to total!");
+    total += 2;
+}
+
+if ((roll1 == roll2) && (roll2 == roll3))
+{
+    Console.WriteLine("You rolled triples! +6 bonus to total!");
+    total += 6;
+}
+
+if (total >= 15)
+{
+    Console.WriteLine("You win!");
+}
+
+if (total < 15)
+{
+    Console.WriteLine("Sorry, you lose.");
+}
+
+//Ahora podemos probar nuestro juego de dados
+
+//Pero ¿realmente se debería premiar al jugador por los puntos extra por la obtención de dobles y triples?
+//Después de todo, una tirada de triples implica que también se lograron dobles.
+//Lo ideal sería que los puntos extra no se acumulen. Deberían darse dos condiciones por separado
+//con los puntos extra.
+//Se trata de un error en la lógica que deberá corregirse.
+
+
