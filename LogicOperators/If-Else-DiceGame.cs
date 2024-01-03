@@ -67,7 +67,6 @@ Dice roll: 4 + 5 + 2 = 11;
         1.En el editor de Visual Studio Code, busque el cursor en la parte inferior del archivo de código 
           y cree una línea de código en blanco.
         2.Para crear tu primera característica de juego, escribe las siguientes instrucciones if.  
-*/
 
 if (total >= 15)
 {
@@ -78,6 +77,10 @@ if (total < 15)
 {
     Console.WriteLine("Sorry, you lose.");
 }
+
+*/
+
+
 
 /*
 Estas dos instrucciones if se usan para administrar los escenarios de éxito y fracaso. 
@@ -164,12 +167,14 @@ Modifique el código del paso anterior para que coincida con la lista de código
     1. En el editor de Visual Studio Code, busque el cursor en la línea de código en blanco encima de la primera instrucción if.
 
     2. Para crear la característica de juego "dobles", escriba la siguiente instrucción if.
-*/
+
 if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
 {
     Console.WriteLine("You rolled doubles! +2 bonus to total!");
     total += 2;
 }
+
+*/
 
 /*
 Aquí se combinarán tres expresiones booleanas para crear una expresión booleana compuesta en una sola línea de
@@ -191,9 +196,6 @@ hay dos líneas de código. La primera línea de código imprime un mensaje al u
 La segunda línea de código incrementa el valor de total en 2.
 
 Para mejorar la legibilidad del código, actualice la segunda instrucción if de la siguiente manera:
-*/
-
-/*
 
 if (total >= 15)
 {
@@ -204,7 +206,10 @@ if (total < 15)
 {
     Console.WriteLine("Sorry, you lose.");
 }
+
 */
+
+
 /*
 Observe que ahora usa el operador >= en la expresión que se usa para evaluar una tirada ganadora.
 El operador >= significa "mayor o igual que". Como consecuencia, podrá comparar total con un valor 15 en lugar de
@@ -213,7 +218,7 @@ que se evalúa para una tirada perdedora. Esto debería facilitar la comprensió
 Dado que se trabaja con valores enteros, la nueva expresión (total >= 15) funcionará de forma similar a la que
 escribió anteriormente (total > 14).
 */
-/*
+
 Random dice = new Random();
 
 int roll1 = dice.Next(1, 7);
@@ -239,7 +244,7 @@ if (total < 15)
 {
     Console.WriteLine("Sorry, you lose.");
 }
-*/
+
 
 /*      Incorporación de otra instrucción if para implementar los puntos extra por obtener triples
 A continuación, puede implementar la siguiente regla: "Si los tres dados que tire muestran el mismo valor,
@@ -263,15 +268,6 @@ a roll3, entonces, por deducción roll1, debe ser igual a roll3 y el usuario ha 
 
 */
 
-Random dice = new Random();
-
-int roll1 = dice.Next(1, 7);
-int roll2 = dice.Next(1, 7);
-int roll3 = dice.Next(1, 7);
-
-int total = roll1 + roll2 + roll3;
-
-Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
 
 if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
 {
@@ -295,6 +291,8 @@ if (total < 15)
     Console.WriteLine("Sorry, you lose.");
 }
 
+
+
 //Ahora podemos probar nuestro juego de dados
 
 //Pero ¿realmente se debería premiar al jugador por los puntos extra por la obtención de dobles y triples?
@@ -302,5 +300,215 @@ if (total < 15)
 //Lo ideal sería que los puntos extra no se acumulen. Deberían darse dos condiciones por separado
 //con los puntos extra.
 //Se trata de un error en la lógica que deberá corregirse.
+
+
+/*              Ejercicio: Creación de una lógica de decisión anidada con if, else if y else
+En la unidad anterior usamos varias instrucciones if para implementar las reglas de un juego. Sin embargo,
+al final de la unidad, observamos que se necesitan instrucciones if más expresivas para corregir un error
+sutil en el código.
+
+En este ejercicio usaremos instrucciones if, else y else if para mejorar las opciones de bifurcación en el código y
+corregir un error de lógica.
+ 
+*/
+
+if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+{
+    Console.WriteLine("You rolled doubles! +2 bonus to total!");
+    total += 2;
+}
+
+if ((roll1 == roll2) && (roll2 == roll3))
+{
+    Console.WriteLine("You rolled triples! +6 bonus to total!");
+    total += 6;
+}
+
+if (total >= 15)
+{
+    Console.WriteLine("You win!");
+}
+
+if (total < 15)
+{
+    Console.WriteLine("Sorry, you lose.");
+}
+
+
+
+//Dedíquele un minuto a examinar las dos instrucciones if al final del archivo:
+
+if (total >= 15)
+{
+    Console.WriteLine("You win!");
+}
+
+if (total < 15)
+{
+    Console.WriteLine("Sorry, you lose.");
+}
+
+
+//Observe que ambas instrucciones if comparan total con el mismo valor numérico.
+//Esta es la oportunidad perfecta para usar una instrucción else.
+/*
+Actualice las dos instrucciones if de la siguiente manera:
+
+if (total >= 15)
+{
+    Console.WriteLine("You win!");
+}
+else 
+{
+    Console.WriteLine("Sorry, you lose.");
+}
+Aquí, si total >= 15 es false, se ejecutará el siguiente bloque de código; después se ejecutará la palabra
+clave else. 
+Dado que los dos resultados son contrarios, se trata de un escenario perfecto para la palabra clave else.
+*/
+
+if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+{
+    Console.WriteLine("You rolled doubles!  +2 bonus to total!");
+    total += 2;
+}
+
+if ((roll1 == roll2) && (roll2 == roll3))
+{
+    Console.WriteLine("You rolled triples!  +6 bonus to total!");
+    total += 6;
+}
+
+if (total >= 15)
+{
+    Console.WriteLine("You win!");
+}
+else
+{
+    Console.WriteLine("Sorry, you lose.");
+}
+
+
+//Modificación del código para eliminar la acumulación de puntos extra por obtener dobles y triples con anidamiento
+
+/*
+En la unidad anterior, vimos que se introdujo un error de lógica sutil en la aplicación. 
+Puede corregir ese problema si anida las instrucciones if.
+
+El anidamiento nos permite colocar bloques de código dentro de otros bloques de código. 
+En este caso, anidaremos una combinación de if y else (la comprobación de dobles) dentro de otra
+instrucción if (la comprobación de triples) para evitar que se otorguen ambas bonificaciones.
+*/
+
+if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+{
+    if ((roll1 == roll2) && (roll2 == roll3))
+    {
+        Console.WriteLine("You rolled triples!  +6 bonus to total!");
+        total += 6;
+    }
+    else
+    {
+        Console.WriteLine("You rolled doubles!  +2 bonus to total!");
+        total += 2;
+    }
+}
+
+if (total >= 15)
+{
+    Console.WriteLine("You win!");
+}
+else
+{
+    Console.WriteLine("Sorry, you lose.");
+}
+
+/*
+Tómese un minuto para revisar las instrucciones if anidadas.
+
+El objetivo es crear una construcción if-else interna en la que los dos resultados sean contrarios y,
+a continuación, usar los resultados contrarios (if/true y else/false) para conceder los puntos de bonificación
+para triples y dobles. Para lograr este objetivo, comprobamos si hay dobles en la instrucción if externa y, 
+a continuación, triples en la instrucción if interna. Este patrón garantiza que, cuando la comprobación
+interna de triples devuelva false, el bloque de código else puede conceder los puntos para los dobles.
+
+Próximamente, "codificaremos de forma rígida" los resultados de las tres tiradas para probar la lógica del código.
+
+Cree una línea de código en blanco encima de la línea donde se declara e inicializa total.
+
+Para probar una tirada de dobles, escriba el código siguiente:
+
+roll1 = 6;
+roll2 = 6;
+roll3 = 5;
+
+Para probar una tirada de triples, actualice las variables de tirada codificadas de 
+forma rígida como se indica a continuación:
+
+roll1 = 6;
+roll2 = 6;
+roll3 = 6;
+
+*/
+
+
+
+/*Uso de instrucciones if, else y else if para ofrecer un premio en lugar de un mensaje de que ha ganado o perdido
+
+Para que el juego sea más divertido, podemos cambiar la dinámica de ganar o perder
+para adjudicar premios ficticios a cada puntuación.
+
+Podemos ofrecer cuatro premios. El jugador solo debe ganar uno:
+    * Si el jugador obtiene una puntuación igual o mayor que 16, gana un coche nuevo.
+    * Si el jugador obtiene una puntuación igual o mayor que 10, gana un portátil nuevo.
+    * Si el jugador obtiene una puntuación de 7, gana un viaje.
+    * De lo contrario, el jugador gana un gatito.
+
+*/
+
+if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+{
+    if ((roll1 == roll2) && (roll2 == roll3))
+    {
+        Console.WriteLine("You rolled triples!  +6 bonus to total!");
+        total += 6;
+    }
+    else
+    {
+        Console.WriteLine("You rolled doubles!  +2 bonus to total!");
+        total += 2;
+    }
+}
+
+if (total >= 16)
+{
+    Console.WriteLine("You win a new car!");
+}
+else if (total >= 10)
+{
+    Console.WriteLine("You win a new laptop!");
+}
+else if (total == 7)
+{
+    Console.WriteLine("You win a trip for two!");
+}
+else
+{
+    Console.WriteLine("You win a kitten!");
+}
+
+/*
+Tómese un minuto para revisar la construcción if-elseif-else actualizada.
+
+Las instrucciones if, else if y else permiten crear varias condiciones exclusivas como expresiones booleanas.
+En otras palabras, cuando solo queremos que se produzca un resultado, pero tenemos varias condiciones y resultados 
+posibles, usaremos tantas instrucciones else if como queramos. Si no se aplica ninguna de las instrucciones
+if y else if, se ejecutará el bloque de código else final. else es opcional, pero debe ser la última condición
+si decide incluirla.
+
+Use la técnica de codificar temporalmente de forma rígida las variables roll para probar cada mensaje.
+
+*/
+
 
 
