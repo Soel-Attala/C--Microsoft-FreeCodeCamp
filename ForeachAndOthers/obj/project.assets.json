@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programación\\C--Microsoft-FreeCodeCamp\\ForeachAndOthers\\ForeachAndOthers.csproj",
-      "projectName": "ForeachAndOthers",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Programación\\C--Microsoft-FreeCodeCamp\\ForeachAndOthers\\ForeachAndOthers.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Programación\\C--Microsoft-FreeCodeCamp\\ForeachAndOthers\\3.0-ForeachAndOthers.csproj",
+      "projectName": "3.0-ForeachAndOthers",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Programación\\C--Microsoft-FreeCodeCamp\\ForeachAndOthers\\3.0-ForeachAndOthers.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Usuario\\Desktop\\Programación\\C--Microsoft-FreeCodeCamp\\ForeachAndOthers\\obj\\",
       "projectStyle": "PackageReference",

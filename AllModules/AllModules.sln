@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Methods", "1.Methods.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.0-LogicOperators", "..\LogicOperators\2.0-LogicOperators.csproj", "{58A509DB-5BC4-4F52-966F-9B2A44EFE414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1- Challenge", "..\2.1- Challenge\2.1- Challenge.csproj", "{BDB48F16-C5EC-49AE-AD35-F4A4A6060CE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1- Challenge", "..\2.1- Challenge\2.1- Challenge.csproj", "{BDB48F16-C5EC-49AE-AD35-F4A4A6060CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeachAndOthers", "..\ForeachAndOthers\ForeachAndOthers.csproj", "{8FAC6F3E-0F88-4711-B46E-516C51317A27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.0-ForeachAndOthers", "..\ForeachAndOthers\3.0-ForeachAndOthers.csproj", "{8FAC6F3E-0F88-4711-B46E-516C51317A27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
