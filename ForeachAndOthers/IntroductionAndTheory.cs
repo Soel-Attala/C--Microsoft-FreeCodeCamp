@@ -158,3 +158,66 @@ Ha visto cómo asignar un valor a un elemento de la matriz. Ahora verá cómo ob
 almacena en un elemento de la matriz.
 
 */
+
+
+
+/*                              Recuperación de valores de elementos de una matriz  
+Acceder al valor de un elemento de la matriz es lo mismo que asignar un valor a un elemento de la matriz. 
+Solo tiene que especificar el índice del elemento cuyo valor quiere recuperar.
+
+1. Para escribir el valor de cada identificador de pedido fraudulento, actualice el código de la siguiente manera: 
+*/
+
+fraudulentOrderIDs[0] = "A123";
+fraudulentOrderIDs[1] = "B456";
+fraudulentOrderIDs[2] = "C789";
+// fraudulentOrderIDs[3] = "D000";
+
+Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
+Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
+Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
+
+// al ejecutar en la consola vera el siguiente mensaje:
+//First: A123
+//Second: B456
+//Third: C789
+//Reassign First: F000
+
+/*                                  Uso de la propiedad Length de una matriz
+En función de cómo se cree la matriz, es posible que no sepa de antemano cuántos elementos contiene.
+Para determinar el tamaño de una matriz, puede usar la propiedad Length.
+*/
+
+Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
+
+//Este código usa la propiedad Length de la matriz, un entero, para devolver el número de elementos
+//de la matriz fraudulentOrderIDs.
+
+/*
+string[] fraudulentOrderIDs = new string[3];
+
+fraudulentOrderIDs[0] = "A123";
+fraudulentOrderIDs[1] = "B456";
+fraudulentOrderIDs[2] = "C789";
+// fraudulentOrderIDs[3] = "D000";
+*/
+
+Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
+Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
+Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
+
+fraudulentOrderIDs[0] = "F000";
+
+Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
+
+Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
+/*
+Guarde los cambios en el archivo Program.cs y, a continuación, ejecute la aplicación.
+Debería ver la siguiente salida:
+First: A123
+Second: B456
+Third: C789
+Reassign First: F000
+There are 3 fraudulent orders to process.
+*/
+
