@@ -221,3 +221,153 @@ Reassign First: F000
 There are 3 fraudulent orders to process.
 */
 
+/*                          Ejercicio: Implementación de la instrucción foreach
+Imagine que trabaja para una empresa de fabricación. La empresa necesita que complete un inventario de su
+almacén para determinar el número de productos que están listos para enviarse. Además del número total de
+productos terminados, debe informar del número de productos terminados almacenados en cada contenedor 
+individual del almacén, junto con una suma acumulativa. Esta suma acumulativa se usará para crear una
+pista de auditoría para que pueda comprobar el trabajo e identificar la "reducción".
+*/
+
+/*                          Recorrido en bucle de una matriz con "foreach"
+La instrucción foreach ofrece una manera sencilla y limpia de iterar los elementos de una matriz. 
+La instrucción foreach procesa los elementos de matriz en orden creciente de índice, comenzando con el
+índice 0 y terminando con el índice Length - 1. Usa una variable temporal para contener el valor del elemento
+de matriz asociado a la iteración actual. Cada iteración ejecutará el bloque de código que se encuentra debajo 
+de la declaración foreach.
+
+Por ejemplo:
+*/
+string[] names = { "Rowena", "Robin", "Bao" };
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
+
+//si ejecutamos obtendremos lo siguiente:
+//Rowena
+//Robin
+//Bao
+
+/*
+Debajo de la palabra clave foreach, el bloque de código que contiene Console.WriteLine(name); se ejecutará una vez
+para cada elemento de la matriz names. Dado que el runtime de .NET recorre en bucle cada elemento de la matriz, el 
+valor almacenado en el elemento actual de la matriz names se asigna a la variable temporal name para facilitar el 
+acceso al bloque de código.
+*/
+
+
+
+/*                          Crear e inicializar una matriz de números enteros (int).
+1.  Para crear una matriz de tipo int que almacene el número de productos terminados en cada contenedor, 
+    escriba el código siguiente:
+
+
+int[] inventory = { 200, 450, 700, 175, 250 };
+
+                        Agregar una instrucción foreach para recorrer en iteración la matriz.
+
+2. Para crear una instrucción foreach que recorra en iteración cada elemento de la matriz inventory,
+   escriba el código siguiente:
+
+foreach (int items in inventory)
+{
+
+}
+
+2. Observe que la instrucción foreach asigna temporalmente el valor del elemento de matriz actual a una variable
+   int denominada items.
+
+3. Para declarar una nueva variable que represente la suma de todos los productos terminados que hay en el almacén,
+escriba el código siguiente:
+
+int sum = 0;
+
+4. Para agregar el valor actual almacenado en items a la variable sum, escriba el código siguiente: sum += items;
+
+    int[] inventory = { 200, 450, 700, 175, 250 };
+    int sum = 0;
+    foreach (int items in inventory)
+    {
+        sum += items;
+    }
+Para notificar la suma final de los elementos del inventario, escriba el código siguiente:
+
+    Console.WriteLine($"We have {sum} items in inventory.");
+
+Al ejecutar nuestro codigo obtendremos la siguiente respuesta:
+
+    We have 1775 items in inventory.
+
+*/
+
+
+
+/*          Crear una variable que contenga el número del contenedor actual y que muestre la suma acumulativa.
+Para cumplir el requisito final del proyecto de informe de inventario, es necesario crear una variable que
+contenga la iteración actual de la instrucción foreach para que podamos mostrar el contenedor y el número de 
+elementos terminados en ese contenedor, junto con la suma acumulativa de todos los elementos de los contenedores
+que se han contabilizado hasta el momento.
+
+1. Agregue una nueva línea de código en blanco encima de la instrucción foreach.
+
+2. Para declarar la variable int denominada bin que se inicializa en 0, escriba el código siguiente:
+
+    int bin = 0;
+
+    Usará bin para almacenar el número del contenedor cuyo inventario se está procesando actualmente.
+
+3. Dentro del bloque de código foreach, para incrementar bin cada vez que se ejecuta el bloque de código,
+   escriba el código siguiente:
+
+    bin++;
+
+    Observe que usa el operador ++ para incrementar el valor de la variable en 1. 
+    Se trata de un acceso directo para bin = bin + 1.
+
+4. Para notificar el número de contenedor, el número de productos terminados en el contenedor y
+   la suma acumulativa de productos terminados, escriba el código siguiente dentro del bloque de código foreach,
+   después de bin++;:
+
+    Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
+
+    Este código usará la variable del contador bin, la variable foreach temporal items y la variable sum para
+    notificar el estado actual del inventario en un mensaje con un formato correcto.
+
+5. Asegúrese de que el código coincide con lo siguiente:
+
+    int[] inventory = { 200, 450, 700, 175, 250 };
+    int sum = 0;
+    int bin = 0;
+    foreach (int items in inventory)
+    {
+        sum += items;
+        bin++;
+        Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
+    }
+    Console.WriteLine($"We have {sum} items in inventory.");
+
+6. Guarde los cambios en el archivo Program.cs y, a continuación, ejecute la aplicación.
+    Debería ver la siguiente salida:
+    Bin 1 = 200 items (Running total: 200)
+    Bin 2 = 450 items (Running total: 650)
+    Bin 3 = 700 items (Running total: 1350)
+    Bin 4 = 175 items (Running total: 1525)
+    Bin 5 = 250 items (Running total: 1775)
+    We have 1775 items in inventory.
+
+
+*/
+
+int[] inventory = { 200, 450, 700, 175, 250 };
+int sum = 0;
+int bin = 0;
+foreach (int items in inventory)
+{
+    sum += items;
+    bin++;
+    Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
+}
+Console.WriteLine($"We have {sum} items in inventory.");
+
+
