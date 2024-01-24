@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1- Challenge", "..\2.1- C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.0-ForeachAndOthers", "..\ForeachAndOthers\3.0-ForeachAndOthers.csproj", "{8FAC6F3E-0F88-4711-B46E-516C51317A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1-Challenge", "..\3.1-Challenge\3.1-Challenge.csproj", "{30671E2A-0057-42CE-B766-F261E514E2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1-Challenge", "..\3.1-Challenge\3.1-Challenge.csproj", "{30671E2A-0057-42CE-B766-F261E514E2E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGradingApp", "..\StudentGradingApp\StudentGradingApp.csproj", "{21D3EF50-255B-4C99-AD7D-8CA38FA988FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{30671E2A-0057-42CE-B766-F261E514E2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30671E2A-0057-42CE-B766-F261E514E2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30671E2A-0057-42CE-B766-F261E514E2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D3EF50-255B-4C99-AD7D-8CA38FA988FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D3EF50-255B-4C99-AD7D-8CA38FA988FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D3EF50-255B-4C99-AD7D-8CA38FA988FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D3EF50-255B-4C99-AD7D-8CA38FA988FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
