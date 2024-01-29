@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("4.1-StudentGradingApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("5.0-Booleans")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9013acdc5e30081fb79059fdf476508092f847b1")]
-[assembly: System.Reflection.AssemblyProductAttribute("4.1-StudentGradingApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("4.1-StudentGradingApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("5.0-Booleans")]
+[assembly: System.Reflection.AssemblyTitleAttribute("5.0-Booleans")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
