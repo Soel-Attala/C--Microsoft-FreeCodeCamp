@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = 2.0-LogicOperators
-build_property.ProjectDir = C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\LogicOperators\
+build_property.ProjectDir = D:\Proyectos\C--Microsoft-FreeCodeCamp\LogicOperators\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

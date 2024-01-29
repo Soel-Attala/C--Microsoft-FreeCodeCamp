@@ -1,0 +1,15 @@
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\bin\Debug\net6.0\4.2-StudentGrading2.0.exe
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\bin\Debug\net6.0\4.2-StudentGrading2.0.deps.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\bin\Debug\net6.0\4.2-StudentGrading2.0.runtimeconfig.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\bin\Debug\net6.0\4.2-StudentGrading2.0.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\bin\Debug\net6.0\4.2-StudentGrading2.0.pdb
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\4.2-StudentGrading2.0.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\4.2-StudentGrading2.0.AssemblyInfoInputs.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\4.2-StudentGrading2.0.AssemblyInfo.cs
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\4.2-StudentGrading2.0.csproj.CoreCompileInputs.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\4.2-StudentGrading2.0.sourcelink.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\4.2-StudentGrading2.0.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\refint\4.2-StudentGrading2.0.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\4.2-StudentGrading2.0.pdb
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\4.2-StudentGrading2.0.genruntimeconfig.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\4.2-StudentGrading2.0\obj\Debug\net6.0\ref\4.2-StudentGrading2.0.dll

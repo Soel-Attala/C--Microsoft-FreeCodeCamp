@@ -1,0 +1,15 @@
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\bin\Debug\net6.0\3.0-ForeachAndOthers.exe
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\bin\Debug\net6.0\3.0-ForeachAndOthers.deps.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\bin\Debug\net6.0\3.0-ForeachAndOthers.runtimeconfig.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\bin\Debug\net6.0\3.0-ForeachAndOthers.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\bin\Debug\net6.0\3.0-ForeachAndOthers.pdb
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\3.0-ForeachAndOthers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\3.0-ForeachAndOthers.AssemblyInfoInputs.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\3.0-ForeachAndOthers.AssemblyInfo.cs
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\3.0-ForeachAndOthers.csproj.CoreCompileInputs.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\3.0-ForeachAndOthers.sourcelink.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\3.0-ForeachAndOthers.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\refint\3.0-ForeachAndOthers.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\3.0-ForeachAndOthers.pdb
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\3.0-ForeachAndOthers.genruntimeconfig.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\ForeachAndOthers\obj\Debug\net6.0\ref\3.0-ForeachAndOthers.dll
