@@ -1,0 +1,15 @@
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\bin\Debug\net6.0\1.Methods.exe
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\bin\Debug\net6.0\1.Methods.deps.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\bin\Debug\net6.0\1.Methods.runtimeconfig.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\bin\Debug\net6.0\1.Methods.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\bin\Debug\net6.0\1.Methods.pdb
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\1.Methods.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\1.Methods.AssemblyInfoInputs.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\1.Methods.AssemblyInfo.cs
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\1.Methods.csproj.CoreCompileInputs.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\1.Methods.sourcelink.json
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\1.Methods.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\refint\1.Methods.dll
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\1.Methods.pdb
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\1.Methods.genruntimeconfig.cache
+D:\Proyectos\C--Microsoft-FreeCodeCamp\AllModules\obj\Debug\net6.0\ref\1.Methods.dll
