@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\bin\Debug\net6.0\5.0-Booleans.exe
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\bin\Debug\net6.0\5.0-Booleans.deps.json
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\bin\Debug\net6.0\5.0-Booleans.runtimeconfig.json
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\bin\Debug\net6.0\5.0-Booleans.dll
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\bin\Debug\net6.0\5.0-Booleans.pdb
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\5.0-Booleans.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\5.0-Booleans.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\5.0-Booleans.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\5.0-Booleans.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\5.0-Booleans.dll
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\refint\5.0-Booleans.dll
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\5.0-Booleans.pdb
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\5.0-Booleans.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\5.0-Booleans\obj\Debug\net6.0\ref\5.0-Booleans.dll

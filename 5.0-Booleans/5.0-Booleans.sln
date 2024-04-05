@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.0-Booleans", "5.0-Booleans.csproj", "{EB4ABF61-F982-4FB8-8C4B-56B645EB72C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.1-Booleans-Challenge", "..\5.1-Booleans-Challenge\5.1-Booleans-Challenge.csproj", "{CAD55987-90A4-41B9-873F-BA8B11995D51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4ABF61-F982-4FB8-8C4B-56B645EB72C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4ABF61-F982-4FB8-8C4B-56B645EB72C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4ABF61-F982-4FB8-8C4B-56B645EB72C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4ABF61-F982-4FB8-8C4B-56B645EB72C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD55987-90A4-41B9-873F-BA8B11995D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD55987-90A4-41B9-873F-BA8B11995D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD55987-90A4-41B9-873F-BA8B11995D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD55987-90A4-41B9-873F-BA8B11995D51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6692B467-5E4F-49BB-927F-521A0B8CC76C}
+	EndGlobalSection
+EndGlobal

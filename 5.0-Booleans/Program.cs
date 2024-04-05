@@ -42,4 +42,106 @@ claro cuando aprenda a crear instrucciones de bifurcación y comience a escribir
 realizan tareas opuestas permiten ser más expresivo y compacto.
 
 Ahora es el momento de preparar el entorno de codificación y comenzar a escribir código que evalúe expresiones booleanas.
+
+
+En el Editor de Visual Studio Code, escriba el código siguiente.
 */
+
+Console.WriteLine("a" == "a");
+Console.WriteLine("a" == "A");
+Console.WriteLine(1 == 2);
+
+string myValue = "a";
+Console.WriteLine(myValue == "a");
+
+/*
+
+Debería ver la siguiente salida.
+True
+False
+False
+True
+
+
+Mejora de la comprobación de la igualdad entre cadenas mediante métodos auxiliares integrados de la cadena
+Es posible que le sorprenda que la línea Console.WriteLine("a" == "A"); genere false. Al comparar cadenas, el uso 
+de mayúsculas y minúsculas importa.
+
+Además, observe esta línea de código:
+Console.WriteLine("a" == "a ");
+Aquí ha añadido un carácter de espacio al final de la cadena. Esta expresión también generará false.
+
+En algunos casos, tener un carácter de espacio antes o después del texto podría ser perfectamente aceptable.
+Pero si necesita aceptar una coincidencia que no sea exacta, puede "manipular" primero los datos. "Manipular"
+los datos significa que realiza alguna limpieza antes de llevar a cabo una comparación de igualdad.
+
+Por ejemplo, considere el caso en el que se esté recopilando la entrada de usuario dentro de un bucle. 
+Después de escribir cada valor, puede proporcionar al usuario un mensaje para determinar si desea continuar,
+como Do you want to continue (Y/N)?. Si el usuario quiere continuar, es probable que escriba y o Y. Querrá que 
+el código interprete ambos valores igual, aunque y no sea equivalente a Y.
+
+Antes de comprobar la igualdad de dos valores de cadena, especialmente cuando un usuario 
+ha escrito uno o ambos valores, debe:
+
+Asegurarse de que ambas cadenas estén en su totalidad en mayúsculas o en minúsculas con el método auxiliar 
+ToUpper() o ToLower() en cualquier valor de cadena.
+Quitar los espacios en blanco iniciales o finales con el método auxiliar Trim() en cualquier valor de cadena.
+Puede mejorar la comprobación de igualdad anterior encadenando estos dos métodos de ayuda en ambos valores,
+tal como se muestra en el siguiente listado de código:
+*/
+
+string value1 = " a";
+string value2 = "A ";
+Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
+
+
+/*
+Uso del operador de negación lógica
+El término "Negación lógica" hace referencia al operador unario de negación !. Algunas personas llaman a este 
+operador el "operador not". Cuando coloca el operador ! antes de una expresión condicional (o cualquier código
+que se evalúe como true o false), obliga al código a invertir la evaluación del operando. Cuando se aplica la 
+negación lógica, la evaluación genera true, si el operando se evalúa como false, y false, si el operando se
+evalúa como true.
+
+Este es un ejemplo que puede ayudarle a ver la conexión entre estas ideas. Las dos líneas de código siguientes
+producen el mismo resultado. La segunda línea es más compacta.
+
+
+
+
+*/
+// These two lines of code will create the same output
+
+
+/*
+                                Ejercicio: Implementación del operador condicional
+Imagine que necesita determinar rápidamente si la compra de un cliente es válida para un descuento promocional. 
+Los detalles de la promoción indican que cuando un valor de compra es mayor que 1000 USD, la compra es apta para 
+un descuento de 100 USD. Si el importe de la compra es de 1000 USD o menos, la compra es apta para un descuento 
+de 50 USD.
+
+Aunque ciertamente podría usar la construcción de bifurcación if ... elseif ... else para expresar esta regla de
+negocio, el uso del operador condicional para evaluar la aptitud para el descuento promocional puede ser una mejor 
+opción. El operador condicional usa un formato compacto que guarda algunas líneas de código y, posiblemente, aclara 
+la intención del código.
+
+                                ¿Qué es el operador condicional?
+
+El operador condicional?: evalúa una expresión booleana y devuelve uno de los dos resultados, en función de si
+la expresión booleana es true o false. El operador condicional se conoce normalmente como operador condicional 
+ternario.
+
+<evaluate this condition> ? <if condition is true, return this value> : <if condition is false, return this value>
+
+
+Dedíquele un minuto a considerar cómo aplicar el operador condicional al escenario del descuento promocional. 
+El objetivo es mostrar un mensaje al cliente en el que se indique su porcentaje de descuento. El importe de su 
+descuento debe basarse en si han gastado más de 1000 USD en su compra.
+*/
+
+
+int saleAmount = 1001;
+int discount = saleAmount > 1000 ? 100 : 50;
+Console.WriteLine($"The Discount is: {discount}");
+Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+
