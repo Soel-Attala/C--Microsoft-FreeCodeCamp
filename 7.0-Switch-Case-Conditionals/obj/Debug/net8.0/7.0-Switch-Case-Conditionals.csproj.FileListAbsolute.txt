@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\bin\Debug\net8.0\7.0-Switch-Case-Conditionals.exe
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\bin\Debug\net8.0\7.0-Switch-Case-Conditionals.deps.json
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\bin\Debug\net8.0\7.0-Switch-Case-Conditionals.runtimeconfig.json
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\bin\Debug\net8.0\7.0-Switch-Case-Conditionals.dll
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\bin\Debug\net8.0\7.0-Switch-Case-Conditionals.pdb
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\7.0-Switch-Case-Conditionals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\7.0-Switch-Case-Conditionals.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\7.0-Switch-Case-Conditionals.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\7.0-Switch-Case-Conditionals.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\7.0-Switch-Case-Conditionals.sourcelink.json
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\7.0-Switch-Case-Conditionals.dll
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\refint\7.0-Switch-Case-Conditionals.dll
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\7.0-Switch-Case-Conditionals.pdb
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\7.0-Switch-Case-Conditionals.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Programación\C--Microsoft-FreeCodeCamp\7.0-Switch-Case-Conditionals\obj\Debug\net8.0\ref\7.0-Switch-Case-Conditionals.dll
