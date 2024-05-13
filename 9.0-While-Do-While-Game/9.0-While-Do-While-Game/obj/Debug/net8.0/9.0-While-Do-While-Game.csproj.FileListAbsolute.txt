@@ -1,0 +1,15 @@
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\bin\Debug\net8.0\9.0-While-Do-While-Game.exe
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\bin\Debug\net8.0\9.0-While-Do-While-Game.deps.json
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\bin\Debug\net8.0\9.0-While-Do-While-Game.runtimeconfig.json
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\bin\Debug\net8.0\9.0-While-Do-While-Game.dll
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\bin\Debug\net8.0\9.0-While-Do-While-Game.pdb
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\9.0-While-Do-While-Game.GeneratedMSBuildEditorConfig.editorconfig
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\9.0-While-Do-While-Game.AssemblyInfoInputs.cache
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\9.0-While-Do-While-Game.AssemblyInfo.cs
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\9.0-While-Do-While-Game.csproj.CoreCompileInputs.cache
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\9.0-While-Do-While-Game.sourcelink.json
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\9.0-While-Do-While-Game.dll
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\refint\9.0-While-Do-While-Game.dll
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\9.0-While-Do-While-Game.pdb
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\9.0-While-Do-While-Game.genruntimeconfig.cache
+X:\Programacion\FreeCodeCamp\9.0-While-Do-While-Game\9.0-While-Do-While-Game\obj\Debug\net8.0\ref\9.0-While-Do-While-Game.dll
