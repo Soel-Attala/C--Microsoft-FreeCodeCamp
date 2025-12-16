@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2Rw5+EX/ntUoLZxKHxUko5P6Dlxa1fjvhwl9iQSzT4jvxfQnZsKi3nlsfUhWr5m7BzRYAvJxmVJ5hOSShXvmkQ==",
+  "dgSpecHash": "/qpQRBKJPMo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Programación\\C--Microsoft-FreeCodeCamp\\4.2-StudentGrading2.0\\4.2-StudentGrading2.0.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Soel Attala\\Desktop\\Programacion\\FreeCodeCamp\\C--Microsoft-FreeCodeCamp\\4.2-StudentGrading2.0\\4.2-StudentGrading2.0.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Soel Attala\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Soel Attala\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Soel Attala\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Soel Attala\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
